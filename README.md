@@ -4,3 +4,13 @@
 - [EclEmma] (http://www.eclemma.org/)
 - [SonarLint for Eclipse] (http://www.sonarlint.org/eclipse/)
 - [Papyrus] (http://www.eclipse.org/papyrus/)
+
+## eclipse.ini
+```
+-vm
+%JAVA_HOME%/jre/bin/server/jvm.dll
+.
+.
+.
+-javaagent:lombok.jar
+```
