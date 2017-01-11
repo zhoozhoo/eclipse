@@ -7,8 +7,12 @@
 
 ## eclipse.ini
 ```
+.
+.
+.
 -vm
 %JAVA_HOME%/jre/bin/server/jvm.dll
+-vmargs
 .
 .
 .
