@@ -4,6 +4,7 @@
 - [EclEmma] (http://www.eclemma.org/)
 - [SonarLint for Eclipse] (http://www.sonarlint.org/eclipse/)
 - [Papyrus] (http://www.eclipse.org/papyrus/)
+- [Project Lombok] (https://projectlombok.org/)
 
 ## eclipse.ini
 ```
