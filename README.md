@@ -12,7 +12,7 @@
 .
 .
 -vm
-%JAVA_HOME%/jre/bin/server/jvm.dll
+%JAVA_HOME%/bin/server/jvm.dll
 -vmargs
 .
 .
