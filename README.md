@@ -1,10 +1,10 @@
 # My Eclipse Configuration
 ## Plug-ins
-- [Spring Tool Suite™] (https://spring.io/tools/sts)
-- [Spring Tool Suite 4] (https://github.com/spring-projects/sts4/wiki/Installation)
+- [Spring Tools] (https://spring.io/tools)
 - [SonarLint for Eclipse] (http://www.sonarlint.org/eclipse/)
 - [Papyrus] (http://www.eclipse.org/papyrus/)
 - [Project Lombok] (https://projectlombok.org/)
+- Kotlin
 
 ## eclipse.ini
 ```
