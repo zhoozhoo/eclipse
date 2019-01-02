@@ -5,6 +5,7 @@
 - [Papyrus] (http://www.eclipse.org/papyrus/)
 - [Project Lombok] (https://projectlombok.org/)
 - Kotlin
+- Jeeeyul's Eclipse Themes
 
 ## eclipse.ini
 ```
