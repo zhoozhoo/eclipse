@@ -19,3 +19,5 @@
 # Visual Studio Code
 
 # WSL 2
+
+## .wslconfig
