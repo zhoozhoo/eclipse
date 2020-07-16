@@ -28,3 +28,8 @@ sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
 sudo apt-get update 
 sudo apt-get install adoptopenjdk-14-hotspot
 ```
+## Maven
+```
+sudo apt-get update 
+sudo apt-get install maven
+```
