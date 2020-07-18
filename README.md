@@ -17,10 +17,16 @@
 .
 ```
 # Visual Studio Code
+```
+"editor.fontFamily": "'Cascadia Code PL', Consolas, 'Courier New', monospace"
+"java.format.settings.url": "https://raw.githubusercontent.com/zhoozhoo/eclipse/master/formatter.xml"
+"java.format.enabled": true
+```
 
 # WSL 2
 
 ## .wslconfig
+
 ## AdoptOpenJDK
 ```
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
