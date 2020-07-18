@@ -18,7 +18,8 @@
 ```
 # Visual Studio Code
 ```
-"editor.fontFamily": "'Cascadia Code PL', Consolas, 'Courier New', monospace"
+"terminal.integrated.fontFamily": "Cascadia Code PL"
+"terminal.integrated.fontSize": 12
 "java.format.settings.url": "https://raw.githubusercontent.com/zhoozhoo/eclipse/master/formatter.xml"
 "java.format.enabled": true
 ```
