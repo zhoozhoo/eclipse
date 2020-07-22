@@ -40,3 +40,8 @@ sudo apt-get install adoptopenjdk-14-hotspot
 sudo apt-get update 
 sudo apt-get install maven
 ```
+## HTTPie
+```
+sudo apt install httpie
+```
+
