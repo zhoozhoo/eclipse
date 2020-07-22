@@ -27,7 +27,7 @@
 # WSL 2
 
 ## .wslconfig
-
+## Powerline
 ## AdoptOpenJDK
 ```
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
