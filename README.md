@@ -27,6 +27,7 @@
 # WSL 2
 
 ## .wslconfig
+## [Cascade Code](https://github.com/microsoft/cascadia-code/releases)
 ## Powerline
 ## AdoptOpenJDK
 ```
@@ -44,4 +45,3 @@ sudo apt-get install maven
 ```
 sudo apt install httpie
 ```
-
