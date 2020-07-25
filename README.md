@@ -50,8 +50,9 @@ sudo apt upgrade -y
 ## .wslconfig
 
 ## Install Powerline
+[Tutorial: Set up Powerline in Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup)
 
-## Install [Cascade Code](https://github.com/microsoft/cascadia-code/releases)
+## Install [Cascade Code](https://github.com/microsoft/cascadia-code/releases) Font
 
 ## Install [AdoptOpenJDK](https://adoptopenjdk.net/)
 ```bash
