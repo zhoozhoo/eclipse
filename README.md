@@ -26,28 +26,21 @@
 ```
 
 # WSL 2
-## Update the sudoers
+## `.wslconfig`
+TODO
+
+## Update the `sudoers`
 ```bash
 # Edit the sudoers with the visudo command
 sudo visudo
 
 # Change the %sudo group to be password-less
-%sudo   ALL=(ALL:ALL) NOPASSWD: ALL
+%sudo ALL=(ALL:ALL) NOPASSWD: ALL
 
 # Press CTRL+X to exit
 # Press Y to save
 # Press Enter to confirm
 ```
-
-## Update Ubuntu
-```bash
-# Update the repositories and list of the packages available
-sudo apt update
-# Update the system based on the packages installed > the "-y" will approve the change automatically
-sudo apt upgrade -y
-```
-
-## .wslconfig
 
 ## Install Powerline
 [Tutorial: Set up Powerline in Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup)
@@ -70,7 +63,8 @@ sudo apt-get install maven
 
 ## Install [HTTPie](https://httpie.org/)
 ```bash
-sudo apt install httpie
+sudo apt-get update 
+sudo apt-get install httpie
 ```
 
 ## Install [KinD](https://kind.sigs.k8s.io/)
