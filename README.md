@@ -18,7 +18,7 @@
 ```
 
 # Visual Studio Code
-```
+```json
 "terminal.integrated.fontFamily": "Cascadia Code PL"
 "terminal.integrated.fontSize": 12
 "java.format.settings.url": "https://raw.githubusercontent.com/zhoozhoo/eclipse/master/formatter.xml"
@@ -26,9 +26,6 @@
 ```
 
 # WSL 2
-## `.wslconfig`
-TODO
-
 ## Update the `sudoers`
 ```bash
 # Edit the sudoers with the visudo command
