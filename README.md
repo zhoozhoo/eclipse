@@ -1,23 +1,23 @@
 # Eclipse
+
 ## Plug-ins
+
 - [Spring Tools](https://spring.io/tools)
 - [SonarLint for Eclipse](http://www.sonarlint.org/eclipse/)
 - [Project Lombok](https://projectlombok.org/)
 
 ## eclipse.ini
-```
-.
-.
-.
+
+```ini
+...
 -vm
 %JAVA_HOME%/bin/server/jvm.dll
 -vmargs
-.
-.
-.
+...
 ```
 
 # Visual Studio Code
+
 ```json
 "terminal.integrated.fontFamily": "Cascadia Code PL"
 "terminal.integrated.fontSize": 12
@@ -26,7 +26,9 @@
 ```
 
 # WSL 2
+
 ## Update the `sudoers`
+
 ```bash
 # Edit the sudoers with the visudo command
 sudo visudo
@@ -40,11 +42,13 @@ sudo visudo
 ```
 
 ## Install Powerline
+
 [Tutorial: Set up Powerline in Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup)
 
 ## Install [Cascade Code](https://github.com/microsoft/cascadia-code/releases) Font
 
 ## Install [AdoptOpenJDK](https://adoptopenjdk.net/)
+
 ```bash
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
 sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
@@ -53,18 +57,21 @@ sudo apt-get install adoptopenjdk-14-hotspot
 ```
 
 ## Install [Maven](https://maven.apache.org/)
+
 ```bash
 sudo apt-get update 
 sudo apt-get install maven
 ```
 
 ## Install [HTTPie](https://httpie.org/)
+
 ```bash
 sudo apt-get update 
 sudo apt-get install httpie
 ```
 
 ## Install [KinD](https://kind.sigs.k8s.io/)
+
 ```bash
 # Download the latest version of KinD
 curl -Lo ./kind https://github.com/kubernetes-sigs/kind/releases/download/v0.8.1/kind-$(uname)-amd64
@@ -75,6 +82,7 @@ sudo mv ./kind /usr/local/bin/
 ```
 
 ## Install [Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
+
 ```bash
 # Install Kubernetes Dashboard
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.3/aio/deploy/recommended.yaml
