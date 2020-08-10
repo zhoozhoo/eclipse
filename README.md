@@ -41,6 +41,13 @@ sudo visudo
 # Press Enter to confirm
 ```
 
+## Install [Midnight Commander](https://midnight-commander.org/)
+
+```bash
+sudo apt-get update 
+sudo apt-get install mc
+```
+
 ## Install Powerline
 
 [Tutorial: Set up Powerline in Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup)
