@@ -134,3 +134,11 @@ EOF
 kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
 # Copy the token and copy it into the Dashboard login and press "Sign in"
 ```
+# Miscellaneous
+
+## Install Root Certificates in JDK
+
+```bash
+cd /usr/lib/jvm/adoptopenjdk-15-hotspot-amd64/lib/security
+sudo keytool -import -trustcacerts -file <path to certificate> -alias <alias> -carets
+```
