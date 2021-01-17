@@ -144,7 +144,7 @@ cd /usr/lib/jvm/adoptopenjdk-15-hotspot-amd64/lib/security
 sudo keytool -import -trustcacerts -file <path to certificate> -alias <alias> -carets
 ```
 
-## Change Defautlt JDK
+## Change Default JDK
 
 ```bash
 update-java-alternatives --list
