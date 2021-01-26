@@ -141,7 +141,7 @@ kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboar
 
 ```bash
 cd /usr/lib/jvm/adoptopenjdk-15-hotspot-amd64/lib/security
-sudo keytool -import -trustcacerts -file <path to certificate> -alias <alias> -carets
+sudo keytool -import -trustcacerts -file <path to certificate> -alias <alias> -cacerts
 ```
 
 ## Change Default JDK
